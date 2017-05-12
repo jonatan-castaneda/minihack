@@ -5,6 +5,7 @@ from django.conf import settings
 # Create your models here.
 class Book(models.Model):
     GENEROS = (
+        ("UX", "UX"),
         ("CM", "Comedia"),
         ("TR", "Terror"),
         ("DR", "Drama")
