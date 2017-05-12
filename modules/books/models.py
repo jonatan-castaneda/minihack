@@ -8,7 +8,11 @@ class Book(models.Model):
         ("UX", "UX"),
         ("CM", "Comedia"),
         ("TR", "Terror"),
-        ("DR", "Drama")
+        ("DR", "Drama"),
+        ("CN", "Ciencia"),
+        ("CU", "Cuento"),
+        ("EN", "Ensayo"),
+        ("PR", "Programación")
     )
     id = models.AutoField(primary_key = True)
     nombre = models.CharField(max_length = 150)
