@@ -48,6 +48,12 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+/*estilo modificado*/
+	.gruop{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	}
 
 /* Box Model */
 
